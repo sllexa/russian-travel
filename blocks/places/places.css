@@ -1,29 +1,27 @@
-.lead {
+.places {
   max-width: 984px;
-  margin: 0 auto;
-  padding-top: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 80px;
 }
 
 @media (max-width: 1279px) {
-  .lead {
+  .places {
     max-width: 928px;
-    padding-top: 48px;
   }
 }
 
 @media (max-width: 1023px) {
-  .lead {
+  .place {
     max-width: 768px;
-    padding-top: 48px;
+    gap: 73px;
   }
 }
 
-@media (max-width: 767px) {
-  .lead {
+@media screen and (max-width: 767px) {
+  .place {
     max-width: 320px;
-    padding-top: 48px;
+    gap: 50px;
   }
 }
