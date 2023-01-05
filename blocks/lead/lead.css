@@ -7,21 +7,21 @@
   align-items: center;
 }
 
-@media (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .lead {
     max-width: 928px;
     padding-top: 48px;
   }
 }
 
-@media (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .lead {
     max-width: 768px;
     padding-top: 48px;
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .lead {
     max-width: 320px;
     padding-top: 48px;

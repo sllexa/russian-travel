@@ -1,4 +1,4 @@
-.page__link:hover {
+.link:hover {
   opacity: .8;
   transition: opacity .3s ease-in-out;
 }
